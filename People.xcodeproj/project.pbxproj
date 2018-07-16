@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF23AC9F20FD0AF300DC2F42 /* StarWarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23AC9E20FD0AF300DC2F42 /* StarWarsModel.swift */; };
+		CF23ACA120FD111800DC2F42 /* PeopleCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23ACA020FD111800DC2F42 /* PeopleCellTableViewCell.swift */; };
+		CF23ACA320FD19B100DC2F42 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23ACA220FD19B100DC2F42 /* MovieCell.swift */; };
 		CF68F0AD20F802EB00EA1C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68F0AC20F802EB00EA1C84 /* AppDelegate.swift */; };
-		CF68F0AF20F802EB00EA1C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68F0AE20F802EB00EA1C84 /* ViewController.swift */; };
+		CF68F0AF20F802EB00EA1C84 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68F0AE20F802EB00EA1C84 /* PeopleViewController.swift */; };
 		CF68F0B220F802EB00EA1C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68F0B020F802EB00EA1C84 /* Main.storyboard */; };
 		CF68F0B520F802EB00EA1C84 /* People.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF68F0B320F802EB00EA1C84 /* People.xcdatamodeld */; };
 		CF68F0B720F802EB00EA1C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF68F0B620F802EB00EA1C84 /* Assets.xcassets */; };
 		CF68F0BA20F802EB00EA1C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68F0B820F802EB00EA1C84 /* LaunchScreen.storyboard */; };
+		CFC5ED9420FD03830026F5E4 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5ED9320FD03830026F5E4 /* MoviesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF23AC9E20FD0AF300DC2F42 /* StarWarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsModel.swift; sourceTree = "<group>"; };
+		CF23ACA020FD111800DC2F42 /* PeopleCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCellTableViewCell.swift; sourceTree = "<group>"; };
+		CF23ACA220FD19B100DC2F42 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		CF68F0A920F802EB00EA1C84 /* People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = People.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF68F0AC20F802EB00EA1C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF68F0AE20F802EB00EA1C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF68F0AE20F802EB00EA1C84 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		CF68F0B120F802EB00EA1C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF68F0B420F802EB00EA1C84 /* People.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People.xcdatamodel; sourceTree = "<group>"; };
 		CF68F0B620F802EB00EA1C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF68F0B920F802EB00EA1C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF68F0BB20F802EB00EA1C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC5ED9320FD03830026F5E4 /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		CF68F0AB20F802EB00EA1C84 /* People */ = {
 			isa = PBXGroup;
 			children = (
+				CF23ACA220FD19B100DC2F42 /* MovieCell.swift */,
+				CFC5ED9320FD03830026F5E4 /* MoviesVC.swift */,
 				CF68F0AC20F802EB00EA1C84 /* AppDelegate.swift */,
-				CF68F0AE20F802EB00EA1C84 /* ViewController.swift */,
+				CF68F0AE20F802EB00EA1C84 /* PeopleViewController.swift */,
 				CF68F0B020F802EB00EA1C84 /* Main.storyboard */,
 				CF68F0B620F802EB00EA1C84 /* Assets.xcassets */,
+				CF23AC9E20FD0AF300DC2F42 /* StarWarsModel.swift */,
+				CF23ACA020FD111800DC2F42 /* PeopleCellTableViewCell.swift */,
 				CF68F0B820F802EB00EA1C84 /* LaunchScreen.storyboard */,
 				CF68F0BB20F802EB00EA1C84 /* Info.plist */,
 				CF68F0B320F802EB00EA1C84 /* People.xcdatamodeld */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF68F0AF20F802EB00EA1C84 /* ViewController.swift in Sources */,
+				CF23ACA320FD19B100DC2F42 /* MovieCell.swift in Sources */,
+				CF68F0AF20F802EB00EA1C84 /* PeopleViewController.swift in Sources */,
+				CFC5ED9420FD03830026F5E4 /* MoviesVC.swift in Sources */,
+				CF23AC9F20FD0AF300DC2F42 /* StarWarsModel.swift in Sources */,
 				CF68F0B520F802EB00EA1C84 /* People.xcdatamodeld in Sources */,
+				CF23ACA120FD111800DC2F42 /* PeopleCellTableViewCell.swift in Sources */,
 				CF68F0AD20F802EB00EA1C84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
